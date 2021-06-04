@@ -5,6 +5,6 @@ services:
       context: . # 当前目录
       dockerfile: Dockerfile # 基于 Dockerfile 构建
     image: server-test # 依赖于当前 Dockerfile 创建出来的镜像
-    container_name: editor-server
+    container_name: server-test
     ports:
       - 6006:3000 # 宿主机通过 8081 访问
